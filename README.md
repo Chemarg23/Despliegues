@@ -9,25 +9,21 @@ En esta actividad, exploraremos el funcionamiento de un servidor web en Python u
 - Documentación: [Simple web server (ejemplo 1)](https://docs.python.org/3/library/http.server.html)
 - Ejecución: `python -m http.server 8000`
 
-![Inserta aquí una captura de pantalla del ejemplo 1 en funcionamiento]
 
-## Ejemplo 2: http server
-- Código fuente: [http server (ejemplo 2)](https://github.com/python/cpython/blob/main/Lib/http/server.py)
+```python
+import http.server as httpserver
+import socketserver
 
-![Inserta aquí una captura de pantalla del ejemplo 2 en funcionamiento]
+def main(port=None):
+	if port is None:
+		port = 8000
+	handler = httpserver.SimpleHTTPRequestHandler
+	try:
+		httpd = socketserver.TCPServer(("", port), handler)
+		print("serving at port", port)
+		httpd.serve_forever()
+	except OSError:
+		print("Given PORT:{} is unavailable.Try running with diffrent PORT Number!".format(port))
 
-## Ejemplo 3: Dummy web server
-- Código fuente: [dummy web server (ejemplo 3)](https://gist.github.com/kabinpokhrel/6fd1275603e9d5f1e284be717cbd1bff)
-
-![Inserta aquí una captura de pantalla del ejemplo 3 en funcionamiento]
-
-### Instrucciones:
-
-1. Instala Python si aún no lo tienes instalado en tu sistema.
-
-2. Ejecuta los ejemplos mostrados con anterioridad siguiendo las instrucciones proporcionadas en los enlaces.
-
-3. Registra tu experiencia y los resultados obtenidos. Asegúrate de capturar pantallas de los ejemplos en funcionamiento.
-
-4. Publica tus ejemplos en GitHub para compartir tu trabajo. Acompaña los ejemplos con las capturas de pantalla que muestran su funcionamiento.
-
+if __name__ == '__main__':
+	main()```
