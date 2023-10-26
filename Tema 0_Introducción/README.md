@@ -24,7 +24,7 @@ with socketserver.TCPServer(("", PORT), Handler) as httpd:
     httpd.serve_forever()
 ```
 Podemos ver que empieza a servir por el puerto 8000
-<img src="">
+<img src="https://github.com/Chemarg23/Despliegues/blob/main/Tema%200_Introducción/img/img1.png">
 
 Probamos el segundo ejemplo:
 
@@ -1275,7 +1275,7 @@ if __name__ == '__main__':
     )
 ```
 Y vemos, que hace exactamente lo mismo que el primero.
-<image src="">
+<image src="https://github.com/Chemarg23/Despliegues/blob/main/Tema%200_Introducción/img/img2.png">
 
 Por último, probamos el tercero:
 ```python
@@ -1297,4 +1297,4 @@ if __name__ == '__main__':
 	main()
 ```
 Vuelve a hacer lo mismo que los otros 3
-<image src="">
+<image src="https://github.com/Chemarg23/Despliegues/blob/main/Tema%200_Introducción/img/img3.png">
