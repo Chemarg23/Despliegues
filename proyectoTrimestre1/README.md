@@ -74,7 +74,7 @@ define('DB_PASSWORD', '123');
 ```
 
 Ahora solo queda acceder a http://centro.intranet y completar nla instalación de WordPress mediante su instalador
-
+<img src="img/wordpress.png" alt="Texto Alternativo">
 # 4. Creamos la aplicación de python y habilitamos el modulo wsgi
 Habilitamos el modulo wsgi
 
@@ -89,7 +89,7 @@ Creamos una aplicación cualquiera y la guardamos en el directorio correspondien
 mkdir /var/www/departamentos
 echo "def application(environ, start_response):
     status = '200 OK'
-    output = b'Hello from your Python application!'
+    output = b¡'Hola, Mundo!'
     
     response_headers = [('Content-type', 'text/plain')]
     start_response(status, response_headers)
@@ -145,7 +145,7 @@ Accedemos al archivo de configuración y ponemos:
 
 ```
 <img src="img/9.png" alt="Texto Alternativo">
-
+<img src="img/conf.png" alt="Texto Alternativo"><img src="img/python.png" alt="Texto Alternativo">
 Creamos el archivo .htpasswd
 
 ```bash
