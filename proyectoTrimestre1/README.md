@@ -244,3 +244,7 @@ Instalamos php y phpMyAdmin
 sudo apt install php8.1-fpm
 sudo apt install phpmyadmin
 ```
+
+Por último, incluimos lo siguiente en el archivo de nginx 
+
+<img src="img/Snippets.jpg" alt="Texto Alternativo">
