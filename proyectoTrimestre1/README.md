@@ -130,6 +130,8 @@ sudo a2ensite departamentos.centro.intranet.conf
 sudo systemctl restart apache2
 
 ```
+Y ahora solo queda acceder a la carpeta por el navegador 
+<img src="img/conf.png" alt="Texto Alternativo"><img src="img/python.png" alt="Texto Alternativo">
 
 # 5. Protección mediante autenticación
 
@@ -145,7 +147,7 @@ Accedemos al archivo de configuración y ponemos:
 
 ```
 <img src="img/9.png" alt="Texto Alternativo">
-<img src="img/conf.png" alt="Texto Alternativo"><img src="img/python.png" alt="Texto Alternativo">
+
 Creamos el archivo .htpasswd
 
 ```bash
