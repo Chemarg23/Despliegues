@@ -22,6 +22,13 @@ Accederemos al archivo /etc/hosts y pondremos las siguientes lineas
 
 <img src="img/8.png" alt="Texto Alternativo">
 
+y creamos dos carpetas en /var/www/html con 
+
+```bash
+sudo mkdir wordpress
+sudo mkdir python-app
+```
+
 # 3. Activación de módulos PHP para acceder a MySQL
 
 Activamos el modulo de PHP8.1 de apache, instalamos MySQL y reiniciamos apache
@@ -73,7 +80,7 @@ define('DB_PASSWORD', '123');
 
 ```
 
-Ahora solo queda moverla a la carpeta de wordpress de /var/www/html y acceder a http://centro.intranet y completar nla instalación de WordPress mediante su instalador
+Ahora solo queda moverla a la carpeta de wordpress de /var/www/html y acceder a http://centro.intranet y completar la instalación de WordPress mediante su instalador
 <img src="img/wordpress.png" alt="Texto Alternativo">
 # 4. Creamos la aplicación de python y habilitamos el modulo wsgi
 Habilitamos el modulo wsgi
