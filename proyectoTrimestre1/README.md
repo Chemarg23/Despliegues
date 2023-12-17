@@ -73,7 +73,7 @@ define('DB_PASSWORD', '123');
 
 ```
 
-Ahora solo queda acceder a http://centro.intranet y completar nla instalación de WordPress mediante su instalador
+Ahora solo queda moverla a la carpeta de wordpress de /var/www/html y acceder a http://centro.intranet y completar nla instalación de WordPress mediante su instalador
 <img src="img/wordpress.png" alt="Texto Alternativo">
 # 4. Creamos la aplicación de python y habilitamos el modulo wsgi
 Habilitamos el modulo wsgi
