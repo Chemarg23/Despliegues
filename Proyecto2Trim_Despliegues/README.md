@@ -1,6 +1,6 @@
-#Práctica 2º Trimestre José María Ramírez Gaitán
+# Práctica 2º Trimestre José María Ramírez Gaitán
 
-####1. Instalación de Apache
+#### 1. Instalación de Apache
 
 De la misma manera que hemos hecho anteriormente, escribimos:
 
@@ -33,7 +33,7 @@ Y ahora en http://localhost deberiamos tener la pagina de inicio de apache
 
 <img src="img/apachePage.png" alt="Texto alternativo">
 
-####2. Creación de página de inicio
+#### 2. Creación de página de inicio
 
 Crearemos un documento y pondremos:
 
@@ -63,7 +63,7 @@ sudo echo "<html><body><h1>Bienvenido a $site!</h1></body></html>" > /var/www/$s
 
 <img src="img/iniDoc.png" alt="Texto alternativo">
 
-####3. Instalar sql
+#### 3. Instalar sql
 
 Debemos poner:
 
@@ -86,7 +86,7 @@ y verificamos su estado con
 ```
 <img src="img/sqlStatus.png" alt="Texto alternativo">
 
-####4. Instalación de php
+#### 4. Instalación de php
 
 Instalamos php con:
 ```bash
@@ -107,7 +107,7 @@ Que indica la versión
     sudo systemctl restart apache2
 ```
 
-####5. Instalación de phpmyadmin
+#### 5. Instalación de phpmyadmin
 
 Para instalar phpmyadmin ponemos:
 ```bash
@@ -126,7 +126,7 @@ Lo último es reiniciar el servidor
 Ahora en localhost/phpmyadmin deber aparecernos 
 <img src="img/phpmyadmin.png" alt="Texto alternativo">
 
-####6. Instalción de ftp
+#### 6. Instalción de ftp
 
 Instalamos el servidor vsftpd con 
 ```bash
@@ -155,7 +155,7 @@ y reiniciamos el servidor con
 ```bash
 sudo systemctl restart vsftpd
 ```
-####7. Instalación de ssh
+#### 7. Instalación de ssh
 
 Lo instalamos con 
 ```bash
@@ -181,7 +181,7 @@ sudo ufw allow ssh
 ```
 <img src="img/sshEnd.png" alt="Texto alternativo">
 
-####8. Script de automatización
+#### 8. Script de automatización
 
 Dividiremos el script en varias funciones que realicen cada acción.
 
