@@ -11,7 +11,7 @@ De la misma manera que hemos hecho anteriormente, escribimos:
 
 Para verificar el estado de apache, escribimos: 
 
-```bash
+``` bash
     sudo systemctl status apache2
 ```
 <img src="img/apacheStatus.png" alt="Texto alternativo">
