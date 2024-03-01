@@ -357,6 +357,6 @@ init
 
 <img src="img/finalScript.png" alt="Texto alternativo">
 <img src="img/prueba.png" alt="Texto alternativo">
-<img src="images/Captura de pantalla 2024-03-01 102427.png">
+<img src="img/Captura de pantalla 2024-03-01 102427.png" alt="Not founded">
 
 
