@@ -119,7 +119,7 @@ Los otros dos ejemplos seguirán los mismo pasos, por lo que solo pondré las im
 <img src="img/wp1.1.png">
 <img src="img/wp1access.png">
 
-###5. Uso y creación del docker-compose
+### 5. Uso y creación del docker-compose
 
 ###### Ejemplo1. Guestbook
 Lo primero a hacer, es crear el archivo docker-compose.yaml y editarlo en función de nuestras necesidades
