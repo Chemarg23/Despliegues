@@ -1,6 +1,6 @@
-#Trabajo Docker
+# Trabajo Docker
 
-###1. Instalación de docker
+###  1. Instalación de docker
 
 Lo primero a hacer será instalar curl con 
 
@@ -33,7 +33,7 @@ Instalamos a version de la comunidad con
 ```bash
 $ apt install docker.io
 ```
-###2. Creación de contenedor con la imagen hello-world
+### 2. Creación de contenedor con la imagen hello-world
 
 Para instalarla, hemos de haber instalado la versión de la comunidad, con el siguiente comando se descargará y ejecutará el contenedor
 
@@ -49,7 +49,7 @@ En mi caso tenía otras dos instaladas, y para mostrar los contenedores:
 
 Con docker ps -a nos mostrará todos los contenedores, si solo queremos ver los activos, debemos quitar e -a, aunque en este caso, al ser un contenedor que solo hace un print de hello world, no saldrá ahí, ya que se parará solo al hacerlo
 
-###3. Descarga de imagenes y ejecución de contenedores
+### 3. Descarga de imagenes y ejecución de contenedores
 
 Las tres imágenes a instalar serán hello-worl, la cual ya está instalada, ubuntu y nginx. Para ello debemos usar
 
@@ -94,9 +94,9 @@ Y para borrar todos, repetiremos el proceso
 <img src="img/deleteall.png">
 
 
-###4. Almacenamiento y redes de docker
+### 4. Almacenamiento y redes de docker
 
-######Ejemplo1. Guestbook
+###### Ejemplo1. Guestbook
 Lo primero será establecer la red que conectará los dos contenedores`
 ```bash
 $ docker network create red_guestbook
@@ -110,18 +110,18 @@ Ahora solo queda ir al navegador y acceder por local
 
 Los otros dos ejemplos seguirán los mismo pasos, por lo que solo pondré las imágenes
 
-######Ejemplo2. Temperaturas
+###### Ejemplo2. Temperaturas
 <img src="img/tempt1.png">
 <img src="img/tempt1access.png">
 
-######Ejemplo3. Wordpress
+###### Ejemplo3. Wordpress
 <img src="img/wp1.png">
 <img src="img/wp1.1.png">
 <img src="img/wp1access.png">
 
-####5. Uso y creación del docker-compose
+###5. Uso y creación del docker-compose
 
-######Ejemplo1. Guestbook
+###### Ejemplo1. Guestbook
 Lo primero a hacer, es crear el archivo docker-compose.yaml y editarlo en función de nuestras necesidades
 
 <img src="img/guestdc.png">
@@ -141,14 +141,14 @@ Lo último será pararlos y eliminarlos
 
 De la misma manera que en el anterior apartado, simplemente pondré las imágenes para evitar la redundancia con el ejemplo anterior
 
-######Ejemplo2. Temperatura
+###### Ejemplo2. Temperatura
 
 <img src="img/dc2.png">
 <img src="img/up2.png">
 <img src="img/tem2.png">
 <img src="img/down2.png">
 
-######Ejemplo3. Wordpress
+###### Ejemplo3. Wordpress
 
 <img src="img/dc3.png">
 <img src="img/up3.png">
